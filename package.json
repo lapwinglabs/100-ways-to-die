@@ -1,0 +1,15 @@
+{
+  "name": "100-ways-to-die",
+  "version": "1.0.0",
+  "description": "all the ways you can kill a node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Mueller",
+  "license": "MIT",
+  "dependencies": {
+    "roo": "0.2.0",
+    "throng": "^1.0.0"
+  }
+}
