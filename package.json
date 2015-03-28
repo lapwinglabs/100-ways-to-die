@@ -4,12 +4,16 @@
   "description": "all the ways you can kill a node server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony throng.js"
   },
   "author": "Matthew Mueller",
   "license": "MIT",
   "dependencies": {
     "roo": "0.2.0",
     "throng": "^1.0.0"
+  },
+  "engine": {
+    "node": "0.12"
   }
 }
