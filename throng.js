@@ -10,7 +10,7 @@ var throng = require('throng');
  * Throng
  */
 
-throng(start, { lifetime: Infinity });
+throng(start, { lifetime: Infinity, workers: 1 });
 
 /**
  * Start
