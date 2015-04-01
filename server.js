@@ -3,8 +3,6 @@
  */
 
 var roo = module.exports = require('roo')(__dirname);
-var port = process.env.PORT || 7000;
-var throng = require('throng');
 
 /**
  * Die
